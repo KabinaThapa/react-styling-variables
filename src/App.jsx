@@ -1,5 +1,5 @@
 import "./Style.css";
-import logo from "./k.png";
+import logo from "./logo.webp";
 function App() {
   const box1 = "Story";
   const box2 = "Gallery";
