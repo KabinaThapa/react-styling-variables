@@ -1,4 +1,5 @@
 import "./Style.css";
+import logo from "./k.png";
 function App() {
   const box1 = "Story";
   const box2 = "Gallery";
@@ -7,7 +8,10 @@ function App() {
   return (
     <>
       <div class="outline">
-        <div class="circle"></div>
+        <div class="circle"> 
+        <img src={logo} alt="logo" className="logo"/>
+           
+        </div>
         <div class="line"></div>
         <div class="line2"></div>
         <div class="head">

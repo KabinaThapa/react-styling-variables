@@ -9,20 +9,33 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:rgba(48, 62, 78, 0.89);
+    background-color:rgba(38, 51, 68, 0.89);
     margin-top: 5rem;
     margin-bottom: 5rem;
     width:50rem;
     height: 40rem;
+   
     
 }
 .circle{
+    
+   
     border-width:1px;
-    width:6rem;
+    width:5rem;
     border-radius:10rem;
     border:solid;
     border-color: aliceblue;
-    height:6rem;
+    height:5rem;
+    overflow: hidden;
+    
+}
+.circle .logo{
+   object-position: center;
+   height:auto;
+   width:100%;
+   
+   
+    
     
 }
 .line{
